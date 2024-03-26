@@ -19,5 +19,8 @@
     负责定时上报数据到eureka server
  - EurekaClientConfig
    eureka 客户端相关配置信息。spring cloud 默认实现是EurekaClientConfigBean，我们常用的配置属性都是eureka.client开头的
- 
+## Eureka 事件
+    - StatusChangeEvent
+
+    - CacheRefreshedEvent
 ## Eureka 指标

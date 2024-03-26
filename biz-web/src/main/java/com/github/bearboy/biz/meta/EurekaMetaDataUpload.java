@@ -28,7 +28,7 @@ public class EurekaMetaDataUpload {
         if (HOTSPOT_JVM) {
             OperatingSystemMXBean operatingSystemMXBean = (OperatingSystemMXBean)
                     ManagementFactory.getOperatingSystemMXBean();
-            double usage = operatingSystemMXBean.getCpuLoad() * 100;
+            double usage = operatingSystemMXBean.getSystemCpuLoad() * 100*100;
             return String.valueOf(usage);
         } else {
             return "0";
