@@ -12,7 +12,8 @@
 		<module>eureka-server</module>
 		<module>biz-web</module>
 		<module>biz-client-ribbon</module>
-	</modules>
+        <module>spring-cloud-gateway-demo</module>
+    </modules>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
